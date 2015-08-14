@@ -1,5 +1,5 @@
 //http://victorsavkin.com/post/119943127151/angular-2-template-syntax
-import {formDirectives, Component, View, bootstrap} from "angular2/angular2";
+import {formDirectives, Component, View} from "angular2/angular2";
 
 
 @Component({

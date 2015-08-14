@@ -19,8 +19,14 @@ export default class RepoList {
 
     constructor(http:Http) {
         //waiting for RxNext to release before API stabilizes...
-        http.get(REPOS).toRx().subscribe(
-                res => this.repos = res.json()
-        )
+        // http.get(REPOS).toRx().subscribe(
+        //         res => this.repos = res.json()
+        // )
+			this.repos = [
+				{
+					name: 'Hello',
+					id: 1234
+				}
+			]
     }
 }
